@@ -5,8 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estates</title>
+     <!-- link css here -->
+     <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+     <!-- add title here -->
+    <header>
+        <h1 id="title">Find A New Home</h1>
+    </header>
+   
+    <main>
+         <!--all assets photos to be purchased to be shown here in this div---> 
+            
+        <div id="estatesListImageHolder">
+            
+        </div>
+         <!--all assets properties to be purchased to be shown here---> 
+
+        <div id="assetProperties">
+           
+
+            <small>Asset properties </small>
+
+            <div>
+            <div id="title" class="title">[ESTATE NAME]</div>
+            <div id="address" class="meta">[Address] </div>
+            <div class="content">
+              <div class="description">
+                <div id="estate-info">[INSERT ESTATE DESCRIPTION HERE]</div>
+                <span id="price" class="ui label">[PRICE]</span>
+                
+              </div>
+            </div>
+               
+            </div>
+            <div id ="purchase">
+              
+                <button type="button" class="buy_rent" id="buy">BUY</button>
+
+                <div>     </div>
+
+                <button type="button" class="buy_rent" id="rent"> RENT</button>
+                <label class="buy_rent" id="status_label"> Status: </label>
+                <button type="button" class="buy_rent" id="status_button"> On Sale </button>
+               
+            </div>
+        </div>
+       
+    </main>
+   
+
+    <div></div>
+    <div></div>
+   
     
+    
+       <!-- link javascript here -->
+       <script type="text/javascript" src="index.js"></script>
+       <script>
+        listsEstates(estatesListImageHolder)
+       </script>
 </body>
 </html>

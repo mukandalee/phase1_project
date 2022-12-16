@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    margin-top: 32px;
+}
+
+main #estatesListImageHolder {
+    width: 456px;
+    height: 256px;
+    border-radius: 5%;
+    background-size: cover;
+    background-position: left center;
+    background-image: url('photos/backgroung2.jpg');
+}
+
+main #assetProperties {
+    flex: 1;
+    border-radius: 10%;
+    padding: 27px;
+    margin-right: 16px;
+    background-color: rgb(240, 184, 116);
+    margin-left: 1rem;
+}
+
+main #assetProperties small {
+    letter-spacing: 3px;
+    font-size: 250%;
+    color: aliceblue;
+    font-size: 20px;
+}
